@@ -15,13 +15,11 @@ IMI is a music-learning platform built around playable experiences for rhythm, e
 
 ## Access and status
 
-IMI is currently in early testing with staged access. Some parts of the product may be limited while the experience continues to evolve.
-
-This public description intentionally focuses on features available today. It is not a roadmap or a complete description of IMI's internal systems.
+The closed test has ended, and public product access is currently closed. Leave your email at [imiorigin.com](https://imiorigin.com) to join the next test list. This does not grant immediate access.
 
 ## About this repository
 
-This repository contains public-facing project information and the lightweight public page for IMI. It is not intended to be complete product or engineering documentation.
+This repository contains public-facing project information and the lightweight public page for IMI.
 
 ## Links
 

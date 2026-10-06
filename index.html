@@ -6,12 +6,11 @@
   <title>IMI — Interactive Music Infrastructure</title>
   <meta
     name="description"
-    content="IMI is a music-focused project developing interactive products for music learning, musical skill development, and musician-audience engagement."
+    content="IMI is a music-learning platform built around playable experiences for rhythm, ear training, and musical logic."
   />
   <style>
     :root {
       --bg: #0a0a10;
-      --bg-soft: #13131c;
       --card: rgba(255,255,255,0.06);
       --card-border: rgba(255,255,255,0.12);
       --text: #f5f7fb;
@@ -139,9 +138,7 @@
       transition: transform 0.16s ease, opacity 0.16s ease, border-color 0.16s ease;
     }
 
-    .btn:hover {
-      transform: translateY(-1px);
-    }
+    .btn:hover { transform: translateY(-1px); }
 
     .btn-primary {
       background: var(--button);
@@ -152,6 +149,13 @@
       background: transparent;
       color: var(--text);
       border-color: rgba(255,255,255,0.18);
+    }
+
+    .status-note {
+      margin: 18px 0 0;
+      color: #9aa2b8;
+      font-size: 13px;
+      line-height: 1.5;
     }
 
     .hero-side {
@@ -188,25 +192,12 @@
       font-size: 15px;
     }
 
-    .footer-note {
-      margin-top: 14px;
-      font-size: 13px;
-      color: #9aa2b8;
-    }
+    .list strong { color: var(--text); }
 
     @media (max-width: 900px) {
-      .hero-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-main,
-      .hero-side {
-        padding: 24px;
-      }
-
-      .lead {
-        font-size: 16px;
-      }
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-main, .hero-side { padding: 24px; }
+      .lead { font-size: 16px; }
     }
   </style>
 </head>
@@ -217,56 +208,55 @@
         <section class="panel hero-main">
           <div class="eyebrow">
             <span class="dot"></span>
-            Music-focused project
+            Early testing · staged access
           </div>
 
           <h1>IMI</h1>
           <p class="subtitle">Interactive Music Infrastructure</p>
 
           <p class="lead">
-            IMI is a music-focused project developing interactive products for music learning,
-            musical skill development, and musician-audience engagement.
+            IMI is a music-learning platform built around playable experiences for rhythm,
+            ear training, and musical logic.
           </p>
 
           <div class="actions">
-            <a class="btn btn-primary" href="https://github.com/imicore" target="_blank" rel="noreferrer">
-             View Official Project Profile
+            <a class="btn btn-primary" href="https://imiorigin.com" target="_blank" rel="noreferrer">
+              Visit IMI
             </a>
-            <a class="btn btn-secondary" href="mailto:filippp689@gmail.com">
-              Contact
+            <a class="btn btn-secondary" href="https://github.com/imicore" target="_blank" rel="noreferrer">
+              GitHub
             </a>
           </div>
 
-          <p class="footer-note">
-            Founded by Filipp Pavlov in Spain.
+          <p class="status-note">
+            IMI is evolving. This page describes features available today rather than future plans.
           </p>
         </section>
 
         <aside class="panel hero-side">
           <section class="mini">
-            <h2>Current direction</h2>
+            <h2>Playable experiences</h2>
             <ul class="list">
-              <li>Rhythm-based music games</li>
-              <li>Music theory learning experiences</li>
-              <li>Profile, achievements, and progression systems</li>
-              <li>Broader music-centered platform development</li>
+              <li><strong>BubbleTap</strong> — rhythm and timing</li>
+              <li><strong>UniTap</strong> — pitch, intervals, and chords</li>
+              <li><strong>UniRow</strong> — pitch-class music logic</li>
             </ul>
           </section>
 
           <section class="mini">
-            <h2>Project status</h2>
+            <h2>Inside IMI</h2>
+            <ul class="list">
+              <li>Profile / Passport for personal progress and achievements</li>
+              <li>Instrument-specific pages and musical context</li>
+              <li>Fermata, a musical assistant available in selected parts of IMI</li>
+            </ul>
+          </section>
+
+          <section class="mini">
+            <h2>Contact</h2>
             <p>
-            IMI is an active music project focused on interactive learning, skill development, and music-centered digital products.
+              <a href="mailto:hello@imiorigin.com">hello@imiorigin.com</a>
             </p>
-          </section>
-
-          <section class="mini">
-            <h2>Official links</h2>
-            <ul class="list">
-              <li><a href="https://github.com/imicore" target="_blank" rel="noreferrer">github.com/imicore</a></li>
-              <li><a href="https://github.com/imicore/imi-public" target="_blank" rel="noreferrer">github.com/imicore/imi-public</a></li>
-              <li><a href="mailto:filippp689@gmail.com">filippp689@gmail.com</a></li>
-            </ul>
           </section>
         </aside>
       </div>
